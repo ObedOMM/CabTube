@@ -20,7 +20,7 @@ nav{
     justify-content: space-between;
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
     background: #fff;
-    position: static;
+    position: sticky;
     top: 0;
     z-index: 10;
 }   .nav-left img{height:25px;}
@@ -57,4 +57,16 @@ nav{
 }
 .nav-middle .search-box img{
     width: 15px;
+}
+
+/* Sidebar */
+
+.sidebar{
+    background: #fff;
+    width: 15%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    padding-left: 2%;
+    padding-right: 80px;
 }
