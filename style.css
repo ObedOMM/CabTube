@@ -287,3 +287,16 @@ nav{
     font-weight: 600;
     font-size: 18px;
 }
+.publisher div span{
+    font-size: 13px;
+    color: #5a5a5a;
+}
+.publisher button{
+    background: red;
+    color: #fff;
+    padding: 8px 30px;
+    border: 0;
+    outline: 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
